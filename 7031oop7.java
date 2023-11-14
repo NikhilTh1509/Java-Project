@@ -39,7 +39,7 @@ public class account
 		account Savings = new account(5000, 0.10);
 		Savings.withdraw(500);
 		Savings.deposit(100);
-		Savings.addInterest();
+		
 		System.out.println("remaining balance = " +Savings.getBalance());
     }
 }
